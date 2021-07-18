@@ -23,7 +23,7 @@ import (
 	networkingv1 "k8s.io/api/networking/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	. "github.com/tigera/api/pkg/apis/projectcalico/v3"
+	. "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 )
 
 var (

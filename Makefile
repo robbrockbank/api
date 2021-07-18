@@ -1,4 +1,4 @@
-PACKAGE_NAME    ?= github.com/tigera/api
+PACKAGE_NAME    ?= github.com/projectcalico/api
 GO_BUILD_VER    ?= v0.53
 GOMOD_VENDOR    := false
 GIT_USE_SSH      = true

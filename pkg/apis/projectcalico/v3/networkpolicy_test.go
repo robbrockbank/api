@@ -20,7 +20,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/tigera/api/pkg/apis/projectcalico/v3"
+	. "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 )
 
 var (

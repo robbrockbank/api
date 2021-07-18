@@ -26,6 +26,6 @@ CODEGEN_PKG=${CODEGEN_PKG:-$(cd ${SCRIPT_ROOT}; ls -d -1 ./vendor/k8s.io/code-ge
 #                  k8s.io/kubernetes. The output-base is needed for the generators to output into the vendor dir
 #                  instead of the $GOPATH directly. For normal projects this can be dropped.
 ${CODEGEN_PKG}/generate-internal-groups.sh all \
-  github.com/tigera/api/pkg/client github.com/tigera/api/pkg/apis github.com/tigera/api/pkg/apis \
+  github.com/projectcalico/api/pkg/client github.com/projectcalico/api/pkg/apis github.com/projectcalico/api/pkg/apis \
   "calico:v3" ...
 #  --output-base "$(dirname ${BASH_SOURCE})/../../.."

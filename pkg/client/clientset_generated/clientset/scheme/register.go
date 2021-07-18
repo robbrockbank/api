@@ -5,7 +5,7 @@
 package scheme
 
 import (
-	projectcalicov3 "github.com/tigera/api/pkg/apis/projectcalico/v3"
+	projectcalicov3 "github.com/projectcalico/api/pkg/apis/projectcalico/v3"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

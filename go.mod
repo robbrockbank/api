@@ -1,4 +1,4 @@
-module github.com/tigera/api
+module github.com/projectcalico/api
 
 go 1.15
 

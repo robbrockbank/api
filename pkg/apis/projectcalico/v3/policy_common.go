@@ -15,7 +15,7 @@
 package v3
 
 import (
-	"github.com/tigera/api/pkg/lib/numorstring"
+	"github.com/projectcalico/api/pkg/lib/numorstring"
 )
 
 // PolicyType enumerates the possible values of the PolicySpec Types field.

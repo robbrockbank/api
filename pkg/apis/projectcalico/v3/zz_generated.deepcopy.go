@@ -7,7 +7,7 @@
 package v3
 
 import (
-	numorstring "github.com/tigera/api/pkg/lib/numorstring"
+	numorstring "github.com/projectcalico/api/pkg/lib/numorstring"
 	v1 "k8s.io/api/core/v1"
 	networkingv1 "k8s.io/api/networking/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

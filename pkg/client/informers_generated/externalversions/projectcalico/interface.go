@@ -5,8 +5,8 @@
 package projectcalico
 
 import (
-	internalinterfaces "github.com/tigera/api/pkg/client/informers_generated/externalversions/internalinterfaces"
-	v3 "github.com/tigera/api/pkg/client/informers_generated/externalversions/projectcalico/v3"
+	internalinterfaces "github.com/projectcalico/api/pkg/client/informers_generated/externalversions/internalinterfaces"
+	v3 "github.com/projectcalico/api/pkg/client/informers_generated/externalversions/projectcalico/v3"
 )
 
 // Interface provides access to each of this group's versions.

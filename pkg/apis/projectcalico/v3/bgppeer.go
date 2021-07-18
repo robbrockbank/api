@@ -19,7 +19,7 @@ import (
 
 	k8sv1 "k8s.io/api/core/v1"
 
-	"github.com/tigera/api/pkg/lib/numorstring"
+	"github.com/projectcalico/api/pkg/lib/numorstring"
 )
 
 const (

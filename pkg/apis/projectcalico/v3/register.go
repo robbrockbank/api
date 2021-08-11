@@ -91,11 +91,11 @@ func addKnownTypes(scheme *runtime.Scheme) error {
 		&TierList{},
 	}
 	scheme.AddKnownTypes(SchemeGroupVersion, all...)
+	metav1.AddToGroupVersion(scheme, SchemeGroupVersion)
 
 	// At the moment the v3 API is identical to the internal API. Register the same set of definitions as the
 	// internal set, no conversions are required since they are identical.
 	scheme.AddKnownTypes(SchemeGroupVersionInternal, all...)
-	metav1.AddToGroupVersion(scheme, SchemeGroupVersion)
 	return nil
 }
 
